@@ -18,7 +18,7 @@ func main() {
 
 	log.SetOutput(logwriter)
 
-        config, err := edgegrid.Init("~/.edgerc", "papi")
+        config, err := edgegrid.Init("~/.edgerc", "alerts")
         if err != nil {
 		log.Fatal(err)
         }
